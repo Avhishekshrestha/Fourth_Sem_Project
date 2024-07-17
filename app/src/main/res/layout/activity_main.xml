@@ -15,17 +15,18 @@
        android:padding="10dp"
        android:background="#EDD6BF">
        <LinearLayout
+           android:id="@+id/toolbar"
            android:layout_width="match_parent"
            android:layout_height="?actionBarSize"
-           android:background="#605A5A"
+           android:background="#fff"
            android:orientation="horizontal"
            android:gravity="center"
            android:paddingEnd="15dp"
            android:paddingStart="15dp">
            <ImageView
                android:id="@+id/img"
-               android:layout_width="36dp"
-               android:layout_height="36dp"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
                android:scaleType="centerCrop"
                android:src="@drawable/baseline_menu_24"/>
            <TextView
