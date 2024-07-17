@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        ActionBar actionBar=getSupportActionBar();
+        //ActionBar actionBar=getSupportActionBar();
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater=getMenuInflater();
-        inflater.inflate(R.menu.menu,menu);
-        return true;
+   // @Override
+   // public boolean onCreateOptionsMenu(Menu menu) {
+      //  MenuInflater inflater=getMenuInflater();
+      //  inflater.inflate(R.menu.menu,menu);
+       // return true;
 
-}
+//}
 }
